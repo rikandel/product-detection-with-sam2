@@ -1,4 +1,4 @@
-# SAM2 Product Detection and Tracking
+# Product Detection with SAM2
 
 This repository contains a Python implementation for product detection and tracking using the SAM2 (Segment Anything Model 2) framework. The system evaluates product categories by tracking objects across images and performing COCO-style evaluation metrics.
 
@@ -88,3 +88,4 @@ product_category2:
   AP75: 0.781
   AR: 0.792
 ```
+
