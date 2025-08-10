@@ -88,13 +88,3 @@ product_category2:
   AP75: 0.781
   AR: 0.792
 ```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Segment Anything Model (SAM) by Meta Research
-- COCO evaluation tools
-- PyTorch community
