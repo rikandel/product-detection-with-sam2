@@ -1,0 +1,74 @@
+
+Evaluating carton_oj (showing first 10 outputs)...
+Using reference image: carton_oj_000001.jpg
+Using reference mask: carton_oj_000001_1_gt.png
+Reference bounding box: x=[118,225], y=[80,270]
+
+Processing image 1/49: carton_oj_000002.jpg
+Ground truth bbox: [464, 97, 173, 218]
+Predicted bbox: [49, 133, 164, 195], Coverage: 6.6%
+
+Processing image 2/49: carton_oj_000003.jpg
+Ground truth bbox: [323, 11, 122, 224]
+Low coverage (0.00%), retrying with adjusted parameters
+Low coverage (0.00%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 3/49: carton_oj_000004.jpg
+Ground truth bbox: [486, 213, 98, 169]
+Predicted bbox: [96, 120, 543, 332], Coverage: 18.2%
+
+Processing image 4/49: carton_oj_000005.jpg
+Ground truth bbox: [10, 121, 224, 186]
+Predicted bbox: [12, 141, 194, 165], Coverage: 7.3%
+
+Processing image 5/49: carton_oj_000006.jpg
+Ground truth bbox: [3, 240, 198, 174]
+Predicted bbox: [384, 0, 255, 240], Coverage: 9.2%
+
+Processing image 6/49: carton_oj_000007.jpg
+Ground truth bbox: [189, 236, 176, 186]
+Predicted bbox: [348, 16, 151, 240], Coverage: 8.4%
+
+Processing image 7/49: carton_oj_000008.jpg
+Ground truth bbox: [233, 259, 146, 116]
+Low coverage (4.73%), retrying with adjusted parameters
+Low coverage (4.73%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 8/49: carton_oj_000009.jpg
+Ground truth bbox: [377, 121, 112, 203]
+Predicted bbox: [380, 113, 180, 210], Coverage: 9.4%
+
+Processing image 9/49: carton_oj_000010.jpg
+Ground truth bbox: [368, 113, 101, 201]
+Predicted bbox: [368, 105, 241, 211], Coverage: 10.0%
+
+Processing image 10/49: carton_oj_000011.jpg
+Ground truth bbox: [233, 267, 90, 167]
+Predicted bbox: [0, 137, 448, 342], Coverage: 13.4%
+Processing 49 images, showing first 10...
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.00s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.00s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.028
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.069
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.036
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.028
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.080
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.080
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.080
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.080
+

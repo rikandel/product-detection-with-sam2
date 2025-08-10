@@ -1,0 +1,67 @@
+
+Evaluating can_soymilk (showing first 10 outputs)...
+Using reference image: can_soymilk_000001.jpg
+Using reference mask: can_soymilk_000001_1_gt.png
+Reference bounding box: x=[432,508], y=[101,229]
+
+Processing image 1/49: can_soymilk_000002.jpg
+Ground truth bbox: [426, 174, 91, 133]
+Low coverage (2.74%), retrying with adjusted parameters
+Low coverage (2.74%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 2/49: can_soymilk_000003.jpg
+Ground truth bbox: [75, 34, 92, 144]
+Low coverage (0.00%), retrying with adjusted parameters
+Low coverage (0.00%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 3/49: can_soymilk_000004.jpg
+Ground truth bbox: [204, 25, 80, 127]
+Low coverage (0.00%), retrying with adjusted parameters
+Low coverage (0.00%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 4/49: can_soymilk_000005.jpg
+Ground truth bbox: [44, 288, 73, 115]
+Low coverage (1.48%), retrying with adjusted parameters
+Low coverage (1.48%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 5/49: can_soymilk_000006.jpg
+Ground truth bbox: [365, 168, 59, 109]
+Low coverage (1.83%), retrying with adjusted parameters
+Low coverage (1.83%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 6/49: can_soymilk_000007.jpg
+Ground truth bbox: [208, 195, 65, 102]
+Low coverage (3.27%), retrying with adjusted parameters
+Low coverage (3.27%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 7/49: can_soymilk_000008.jpg
+Ground truth bbox: [382, 162, 61, 127]
+Low coverage (1.88%), retrying with adjusted parameters
+Low coverage (1.88%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 8/49: can_soymilk_000009.jpg
+Ground truth bbox: [464, 131, 61, 117]
+Low coverage (1.96%), retrying with adjusted parameters
+Low coverage (1.96%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 9/49: can_soymilk_000010.jpg
+Ground truth bbox: [444, 290, 67, 116]
+Low coverage (1.70%), retrying with adjusted parameters
+Low coverage (1.70%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 10/49: can_soymilk_000011.jpg
+Ground truth bbox: [45, 116, 76, 121]
+Low coverage (2.64%), retrying with adjusted parameters
+Low coverage (2.64%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+Processing 49 images, showing first 10...
+Error: No valid predictions generated!

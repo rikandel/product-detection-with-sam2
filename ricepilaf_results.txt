@@ -1,0 +1,88 @@
+
+Evaluating ricepilaf (showing first 10 outputs)...
+Using reference image: ricepilaf_000001.jpg
+Using reference mask: ricepilaf_000001_1_gt.png
+Reference bounding box: x=[417,505], y=[104,242]
+
+Processing image 1/49: ricepilaf_000002.jpg
+Ground truth bbox: [136, 120, 127, 144]
+Low coverage (0.00%), retrying with adjusted parameters
+Low coverage (0.00%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 2/49: ricepilaf_000003.jpg
+Ground truth bbox: [314, 29, 116, 110]
+Low coverage (2.84%), retrying with adjusted parameters
+Low coverage (2.84%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 3/49: ricepilaf_000004.jpg
+Ground truth bbox: [275, 213, 85, 122]
+Predicted bbox: [405, 209, 162, 213], Coverage: 6.2%
+
+Processing image 4/49: ricepilaf_000005.jpg
+Ground truth bbox: [150, 164, 86, 134]
+Low coverage (0.00%), retrying with adjusted parameters
+Low coverage (0.00%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 5/49: ricepilaf_000006.jpg
+Ground truth bbox: [307, 136, 77, 127]
+Low coverage (4.61%), retrying with adjusted parameters
+Low coverage (4.61%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 6/49: ricepilaf_000007.jpg
+Ground truth bbox: [166, 115, 89, 160]
+Low coverage (0.00%), retrying with adjusted parameters
+Low coverage (0.00%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 7/49: ricepilaf_000008.jpg
+Ground truth bbox: [40, 115, 143, 165]
+Low coverage (0.00%), retrying with adjusted parameters
+Low coverage (0.00%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 8/49: ricepilaf_000009.jpg
+Ground truth bbox: [64, 122, 98, 125]
+Low coverage (0.00%), retrying with adjusted parameters
+Low coverage (0.00%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 9/49: ricepilaf_000010.jpg
+Ground truth bbox: [297, 167, 141, 113]
+Low coverage (0.00%), retrying with adjusted parameters
+Low coverage (0.00%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 10/49: ricepilaf_000011.jpg
+Ground truth bbox: [179, 188, 166, 174]
+Low coverage (0.00%), retrying with adjusted parameters
+Low coverage (0.00%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+Processing 49 images, showing first 10...
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.00s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.00s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.000
+

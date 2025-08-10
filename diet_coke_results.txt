@@ -1,0 +1,84 @@
+
+Evaluating diet_coke (showing first 10 outputs)...
+Using reference image: diet_coke_000001.jpg
+Using reference mask: diet_coke_000001_1_gt.png
+Reference bounding box: x=[354,445], y=[104,277]
+
+Processing image 1/49: diet_coke_000002.jpg
+Ground truth bbox: [400, 139, 77, 142]
+Low coverage (3.39%), retrying with adjusted parameters
+Low coverage (3.39%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 2/49: diet_coke_000003.jpg
+Ground truth bbox: [210, 65, 113, 209]
+Predicted bbox: [210, 66, 110, 205], Coverage: 6.4%
+
+Processing image 3/49: diet_coke_000004.jpg
+Ground truth bbox: [226, 207, 78, 134]
+Low coverage (2.86%), retrying with adjusted parameters
+Low coverage (2.86%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 4/49: diet_coke_000005.jpg
+Ground truth bbox: [211, 91, 102, 185]
+Low coverage (0.00%), retrying with adjusted parameters
+Low coverage (0.00%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 5/49: diet_coke_000006.jpg
+Ground truth bbox: [302, 94, 105, 219]
+Low coverage (3.60%), retrying with adjusted parameters
+Low coverage (3.60%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 6/49: diet_coke_000007.jpg
+Ground truth bbox: [257, 85, 84, 161]
+Low coverage (0.00%), retrying with adjusted parameters
+Low coverage (0.00%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 7/49: diet_coke_000008.jpg
+Ground truth bbox: [351, 118, 61, 112]
+Low coverage (1.46%), retrying with adjusted parameters
+Low coverage (1.46%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 8/49: diet_coke_000009.jpg
+Ground truth bbox: [369, 115, 103, 177]
+Low coverage (4.95%), retrying with adjusted parameters
+Low coverage (4.95%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 9/49: diet_coke_000010.jpg
+Ground truth bbox: [192, 102, 107, 180]
+Predicted bbox: [193, 91, 121, 194], Coverage: 5.2%
+
+Processing image 10/49: diet_coke_000011.jpg
+Ground truth bbox: [98, 120, 122, 194]
+Predicted bbox: [366, 136, 123, 222], Coverage: 7.6%
+Processing 49 images, showing first 10...
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.00s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.00s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.178
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.208
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.208
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.195
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.170
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.170
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.170
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.189
+

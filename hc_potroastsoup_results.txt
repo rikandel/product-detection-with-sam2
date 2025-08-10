@@ -1,0 +1,88 @@
+
+Evaluating hc_potroastsoup (showing first 10 outputs)...
+Using reference image: hc_potroastsoup_000001.jpg
+Using reference mask: hc_potroastsoup_000001_1_gt.png
+Reference bounding box: x=[147,288], y=[191,339]
+
+Processing image 1/49: hc_potroastsoup_000002.jpg
+Ground truth bbox: [147, 52, 119, 105]
+Low coverage (3.23%), retrying with adjusted parameters
+Low coverage (3.23%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 2/49: hc_potroastsoup_000003.jpg
+Ground truth bbox: [272, 217, 91, 77]
+Low coverage (1.91%), retrying with adjusted parameters
+Low coverage (1.91%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 3/49: hc_potroastsoup_000004.jpg
+Ground truth bbox: [263, 275, 94, 91]
+Low coverage (1.80%), retrying with adjusted parameters
+Low coverage (1.80%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 4/49: hc_potroastsoup_000005.jpg
+Ground truth bbox: [316, 260, 124, 114]
+Low coverage (3.54%), retrying with adjusted parameters
+Low coverage (3.54%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 5/49: hc_potroastsoup_000006.jpg
+Ground truth bbox: [350, 161, 109, 109]
+Low coverage (4.82%), retrying with adjusted parameters
+Low coverage (4.82%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 6/49: hc_potroastsoup_000007.jpg
+Ground truth bbox: [133, 195, 91, 79]
+Low coverage (0.00%), retrying with adjusted parameters
+Low coverage (0.00%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 7/49: hc_potroastsoup_000008.jpg
+Ground truth bbox: [284, 53, 87, 71]
+Low coverage (2.97%), retrying with adjusted parameters
+Low coverage (2.97%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 8/49: hc_potroastsoup_000009.jpg
+Ground truth bbox: [54, 106, 123, 116]
+Predicted bbox: [0, 107, 179, 192], Coverage: 6.4%
+
+Processing image 9/49: hc_potroastsoup_000010.jpg
+Ground truth bbox: [151, 109, 142, 122]
+Low coverage (4.18%), retrying with adjusted parameters
+Low coverage (4.18%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 10/49: hc_potroastsoup_000011.jpg
+Ground truth bbox: [229, 162, 111, 109]
+Low coverage (0.00%), retrying with adjusted parameters
+Low coverage (0.00%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+Processing 49 images, showing first 10...
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.00s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.00s).
+Accumulating evaluation results...
+DONE (t=0.00s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.000
+

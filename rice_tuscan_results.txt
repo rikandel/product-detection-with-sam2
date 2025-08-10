@@ -1,0 +1,88 @@
+
+Evaluating rice_tuscan (showing first 10 outputs)...
+Using reference image: rice_tuscan_000001.jpg
+Using reference mask: rice_tuscan_000001_1_gt.png
+Reference bounding box: x=[217,307], y=[66,227]
+
+Processing image 1/49: rice_tuscan_000002.jpg
+Ground truth bbox: [193, 186, 91, 133]
+Low coverage (3.25%), retrying with adjusted parameters
+Low coverage (3.25%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 2/49: rice_tuscan_000003.jpg
+Ground truth bbox: [245, 155, 84, 147]
+Low coverage (2.12%), retrying with adjusted parameters
+Low coverage (2.12%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 3/49: rice_tuscan_000004.jpg
+Ground truth bbox: [125, 200, 156, 91]
+Low coverage (2.89%), retrying with adjusted parameters
+Low coverage (2.89%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 4/49: rice_tuscan_000005.jpg
+Ground truth bbox: [320, 127, 84, 130]
+Low coverage (0.00%), retrying with adjusted parameters
+Low coverage (0.00%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 5/49: rice_tuscan_000006.jpg
+Ground truth bbox: [174, 186, 87, 117]
+Low coverage (0.00%), retrying with adjusted parameters
+Low coverage (0.00%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 6/49: rice_tuscan_000007.jpg
+Ground truth bbox: [244, 135, 75, 128]
+Low coverage (0.00%), retrying with adjusted parameters
+Low coverage (0.00%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 7/49: rice_tuscan_000008.jpg
+Ground truth bbox: [121, 44, 100, 141]
+Low coverage (3.53%), retrying with adjusted parameters
+Low coverage (3.53%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 8/49: rice_tuscan_000009.jpg
+Ground truth bbox: [225, 104, 133, 270]
+Low coverage (0.00%), retrying with adjusted parameters
+Low coverage (0.00%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 9/49: rice_tuscan_000010.jpg
+Ground truth bbox: [244, 118, 103, 209]
+Predicted bbox: [244, 121, 97, 206], Coverage: 6.0%
+
+Processing image 10/49: rice_tuscan_000011.jpg
+Ground truth bbox: [258, 91, 135, 250]
+Low coverage (0.00%), retrying with adjusted parameters
+Low coverage (0.00%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+Processing 49 images, showing first 10...
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.00s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.00s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.098
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.109
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.109
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.098
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.090
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.090
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.090
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.090
+

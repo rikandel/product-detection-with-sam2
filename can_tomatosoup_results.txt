@@ -1,0 +1,67 @@
+
+Evaluating can_tomatosoup (showing first 10 outputs)...
+Using reference image: can_tomatosoup_000001.jpg
+Using reference mask: can_tomatosoup_000001_1_gt.png
+Reference bounding box: x=[127,202], y=[135,239]
+
+Processing image 1/49: can_tomatosoup_000002.jpg
+Ground truth bbox: [171, 133, 61, 88]
+Low coverage (1.87%), retrying with adjusted parameters
+Low coverage (1.87%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 2/49: can_tomatosoup_000003.jpg
+Ground truth bbox: [400, 168, 60, 99]
+Low coverage (1.48%), retrying with adjusted parameters
+Low coverage (1.48%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 3/49: can_tomatosoup_000004.jpg
+Ground truth bbox: [385, 106, 64, 105]
+Low coverage (1.74%), retrying with adjusted parameters
+Low coverage (1.74%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 4/49: can_tomatosoup_000005.jpg
+Ground truth bbox: [374, 62, 86, 140]
+Low coverage (1.36%), retrying with adjusted parameters
+Low coverage (1.36%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 5/49: can_tomatosoup_000006.jpg
+Ground truth bbox: [438, 22, 73, 114]
+Low coverage (0.00%), retrying with adjusted parameters
+Low coverage (0.00%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 6/49: can_tomatosoup_000007.jpg
+Ground truth bbox: [369, 7, 72, 114]
+Low coverage (0.54%), retrying with adjusted parameters
+Low coverage (0.54%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 7/49: can_tomatosoup_000008.jpg
+Ground truth bbox: [398, 61, 60, 90]
+Low coverage (0.00%), retrying with adjusted parameters
+Low coverage (0.00%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 8/49: can_tomatosoup_000009.jpg
+Ground truth bbox: [340, 145, 67, 120]
+Low coverage (0.00%), retrying with adjusted parameters
+Low coverage (0.00%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 9/49: can_tomatosoup_000010.jpg
+Ground truth bbox: [371, 99, 90, 142]
+Low coverage (0.00%), retrying with adjusted parameters
+Low coverage (0.00%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 10/49: can_tomatosoup_000011.jpg
+Ground truth bbox: [49, 14, 120, 155]
+Low coverage (4.57%), retrying with adjusted parameters
+Low coverage (4.57%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+Processing 49 images, showing first 10...
+Error: No valid predictions generated!

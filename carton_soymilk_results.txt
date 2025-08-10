@@ -1,0 +1,76 @@
+
+Evaluating carton_soymilk (showing first 10 outputs)...
+Using reference image: carton_soymilk_000001.jpg
+Using reference mask: carton_soymilk_000001_1_gt.png
+Reference bounding box: x=[355,439], y=[141,304]
+
+Processing image 1/49: carton_soymilk_000002.jpg
+Ground truth bbox: [182, 164, 121, 200]
+Low coverage (3.89%), retrying with adjusted parameters
+Low coverage (3.89%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 2/49: carton_soymilk_000003.jpg
+Ground truth bbox: [146, 133, 134, 224]
+Predicted bbox: [147, 141, 123, 180], Coverage: 5.1%
+
+Processing image 3/49: carton_soymilk_000004.jpg
+Ground truth bbox: [455, 245, 129, 216]
+Low coverage (4.77%), retrying with adjusted parameters
+Low coverage (4.77%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 4/49: carton_soymilk_000005.jpg
+Ground truth bbox: [309, 8, 260, 188]
+Predicted bbox: [343, 13, 226, 140], Coverage: 8.4%
+
+Processing image 5/49: carton_soymilk_000006.jpg
+Ground truth bbox: [388, 73, 87, 150]
+Predicted bbox: [368, 45, 168, 252], Coverage: 5.0%
+
+Processing image 6/49: carton_soymilk_000007.jpg
+Ground truth bbox: [390, 8, 133, 243]
+Predicted bbox: [396, 11, 180, 267], Coverage: 12.1%
+
+Processing image 7/49: carton_soymilk_000008.jpg
+Ground truth bbox: [375, 181, 131, 195]
+Predicted bbox: [378, 166, 184, 213], Coverage: 9.4%
+
+Processing image 8/49: carton_soymilk_000009.jpg
+Ground truth bbox: [371, 14, 94, 217]
+Predicted bbox: [504, 27, 97, 270], Coverage: 6.3%
+
+Processing image 9/49: carton_soymilk_000010.jpg
+Ground truth bbox: [345, 167, 123, 230]
+Predicted bbox: [349, 144, 161, 250], Coverage: 8.9%
+
+Processing image 10/49: carton_soymilk_000011.jpg
+Ground truth bbox: [277, 97, 70, 153]
+Low coverage (3.41%), retrying with adjusted parameters
+Low coverage (3.41%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+Processing 49 images, showing first 10...
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.00s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.00s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.156
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.437
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.156
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.180
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.180
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.180
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.180
+

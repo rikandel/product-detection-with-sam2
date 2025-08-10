@@ -1,0 +1,88 @@
+
+Evaluating can_chowder (showing first 10 outputs)...
+Using reference image: can_chowder_000001.jpg
+Using reference mask: can_chowder_000001_1_gt.png
+Reference bounding box: x=[371,464], y=[150,290]
+
+Processing image 1/49: can_chowder_000002.jpg
+Ground truth bbox: [249, 148, 87, 130]
+Low coverage (2.89%), retrying with adjusted parameters
+Low coverage (2.91%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 2/49: can_chowder_000003.jpg
+Ground truth bbox: [398, 92, 105, 146]
+Low coverage (3.75%), retrying with adjusted parameters
+Low coverage (3.76%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 3/49: can_chowder_000004.jpg
+Ground truth bbox: [397, 96, 100, 125]
+Low coverage (3.48%), retrying with adjusted parameters
+Low coverage (3.48%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 4/49: can_chowder_000005.jpg
+Ground truth bbox: [87, 108, 129, 166]
+Low coverage (4.59%), retrying with adjusted parameters
+Low coverage (4.59%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 5/49: can_chowder_000006.jpg
+Ground truth bbox: [175, 189, 103, 143]
+Low coverage (2.95%), retrying with adjusted parameters
+Low coverage (2.95%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 6/49: can_chowder_000007.jpg
+Ground truth bbox: [415, 9, 116, 152]
+Low coverage (2.37%), retrying with adjusted parameters
+Low coverage (2.37%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 7/49: can_chowder_000008.jpg
+Ground truth bbox: [365, 217, 80, 132]
+Low coverage (3.68%), retrying with adjusted parameters
+Low coverage (3.68%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 8/49: can_chowder_000009.jpg
+Ground truth bbox: [383, 107, 78, 100]
+Predicted bbox: [343, 16, 123, 191], Coverage: 5.1%
+
+Processing image 9/49: can_chowder_000010.jpg
+Ground truth bbox: [473, 65, 102, 127]
+Low coverage (3.47%), retrying with adjusted parameters
+Low coverage (3.47%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+
+Processing image 10/49: can_chowder_000011.jpg
+Ground truth bbox: [212, 186, 149, 130]
+Low coverage (3.27%), retrying with adjusted parameters
+Low coverage (3.27%), retrying with adjusted parameters
+Warning: No valid prediction after retries
+Processing 49 images, showing first 10...
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.17s).
+Accumulating evaluation results...
+DONE (t=0.09s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.000
+
