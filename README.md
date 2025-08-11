@@ -39,11 +39,11 @@ This repository contains a Python implementation for product detection and track
 
 ## Usage
 
-1. Prepare your dataset:
-   - Organize images and masks in the specified directory structure
-   - File naming convention: `{category}_{identifier}.jpg` for images and `{category}_{identifier}_gt.png` for masks
+1. About the dataset:
+   - The images and masks are present in a flat directory structure.
+   - File naming convention: `{category}_{identifier}.jpg` for images and `{category}_{identifier}_gt.png` for masks.
 
-2. Modify the configuration paths in the script:
+2. Modifying the configuration paths in the script:
    - Update `checkpoint` and `model_cfg` paths to point to your SAM2 model files
    - Set `data_dir` to point to your dataset directory
 
@@ -52,24 +52,14 @@ This repository contains a Python implementation for product detection and track
    python product_tracking.py
    ```
 
-## Configuration Parameters
-
-Key adjustable parameters in the script:
-
-```python
-TRACKING_THRESHOLD = 0.6  # Mask probability threshold for tracking
-MIN_MASK_COVERAGE = 0.05  # Minimum mask coverage percentage to consider valid
-MAX_PADDING_RATIO = 0.2   # Maximum padding ratio around bounding boxes
-```
 
 ## Output
 
-The script will:
-1. Process each product category separately
-2. Generate evaluation metrics (AP, AP50, AP75, AR) for each category
-3. Save detailed results to `{category}_results.txt` files
-4. Display visual comparisons for the first few images
-5. Print a summary of final results
+The script:
+1. Processes each product category separately.
+2. Generate evaluation metrics (AP, AP50, AP75, AR) for each category.
+3. Save detailed results to `{category}_results.txt` files.
+4. Print a summary of final results
 
 ## Example Results
 
@@ -88,4 +78,5 @@ product_category2:
   AP75: 0.781
   AR: 0.792
 ```
+
 
