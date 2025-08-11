@@ -4,11 +4,10 @@ This repository contains a Python implementation for product detection and track
 
 ## Features
 
-- **Object Tracking**: Tracks products across image pairs using SAM2's video prediction capabilities
-- **Bounding Box Extraction**: Converts segmentation masks to bounding boxes with dynamic padding
-- **COCO Evaluation**: Implements standard COCO evaluation metrics (AP, AP50, AP75, AR)
-- **Multi-Category Processing**: Handles multiple product categories with separate evaluations
-- **Visualization**: Includes optional visualization of predictions and ground truth
+- **Object Tracking**: Tracks products across image pairs using SAM2's video prediction capabilities.
+- **Bounding Box Extraction**: Converts segmentation masks to bounding boxes with dynamic padding.
+- **COCO Evaluation**: Implements standard COCO evaluation metrics (AP, AP50, AP75, AR).
+- **Multi-Category Processing**: Handles multiple product categories with separate evaluations.
 
 ## Requirements
 
@@ -20,22 +19,6 @@ This repository contains a Python implementation for product detection and track
 - pycocotools
 - SAM2 model files (config and checkpoint)
 
-## Installation
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/sam2-product-tracking.git
-   cd sam2-product-tracking
-   ```
-
-2. Install required packages:
-   ```bash
-   pip install torch numpy matplotlib pillow pycocotools
-   ```
-
-3. Download SAM2 model files and place them in the appropriate directory:
-   - `sam2_hiera_tiny.pt` (checkpoint)
-   - `sam2_hiera_t.yaml` (config)
 
 ## Usage
 
@@ -44,7 +27,7 @@ This repository contains a Python implementation for product detection and track
    - File naming convention: `{category}_{identifier}.jpg` for images and `{category}_{identifier}_gt.png` for masks.
 
 2. Modifying the configuration paths in the script:
-   - Update `checkpoint` and `model_cfg` paths to point to your SAM2 model files
+   - Update `checkpoint` and `model_cfg` paths to point to your SAM2 model files for `sam2_hiera_tiny.pt` (checkpoint) and `sam2_hiera_t.yaml` (config).
    - Set `data_dir` to point to your dataset directory
 
 3. Run the evaluation:
@@ -57,9 +40,9 @@ This repository contains a Python implementation for product detection and track
 
 The script:
 1. Processes each product category separately.
-2. Generate evaluation metrics (AP, AP50, AP75, AR) for each category.
-3. Save detailed results to `{category}_results.txt` files.
-4. Print a summary of final results
+2. Generates evaluation metrics (AP, AP50, AP75, AR) for each category.
+3. Saves detailed results to `{category}_results.txt` files.
+4. Prints a summary of final results
 
 ## Example Results
 
@@ -78,5 +61,6 @@ product_category2:
   AP75: 0.781
   AR: 0.792
 ```
+
 
 
